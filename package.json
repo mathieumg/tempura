@@ -1,6 +1,6 @@
 {
   "name": "tempura",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "ES2015+ template literal utilities under the form of tags.",
   "main": "lib/index.js",
   "scripts": {
