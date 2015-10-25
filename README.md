@@ -1,4 +1,10 @@
 # tempura
+
+[![npm version](https://badge.fury.io/js/tempura.svg)](https://badge.fury.io/js/tempura)
+[![Build Status](https://travis-ci.org/mathieumg/tempura.svg)](https://travis-ci.org/mathieumg/tempura)
+[![Dependency Status](https://david-dm.org/mathieumg/tempura.svg)](https://david-dm.org/mathieumg/tempura)
+[![devDependency Status](https://david-dm.org/mathieumg/tempura/dev-status.svg)](https://david-dm.org/mathieumg/tempura#info=devDependencies)
+
 Template literal utilities under the form of tags
 
 # Usage
