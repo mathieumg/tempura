@@ -12,9 +12,9 @@ Template literal utilities under the form of tags
 Utility to write template literals without having to worry about whitespace after newline feeds and before text, and newline feeds.
 
 ```js
-import { noMultiSpaceAfterLineFeed } from 'tempura';
+import {noMultiSpaceAfterLineFeed} from 'tempura';
 
-let myMultilineString = noMultiSpaceAfterLineFeed`
+const myMultilineString = noMultiSpaceAfterLineFeed`
    My Super String
    That is well indented.
 `;
@@ -32,9 +32,9 @@ That is well indentend
 Utility to remove all newline characters from a template literal.
 
 ```js
-import { noMultiLine } from 'tempura';
+import {noMultiLine} from 'tempura';
 
-let myMultilineString = noMultiLine`
+const myMultilineString = noMultiLine`
 expression that should
 
 be on a single line
@@ -52,9 +52,9 @@ expression that shouldbe on a single linebut is multilined for line length
 Utility to remove all whitespace in template literals.
 
 ```js
-import { noWhitespace } from 'tempura';
+import {noWhitespace} from 'tempura';
 
-let myStringWithWhiteSpace = noWhitespace`
+const myStringWithWhiteSpace = noWhitespace`
 expression that shouldn't have whitespace in it, 
 but has some for clarity in code
 `;
