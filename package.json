@@ -5,7 +5,12 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src --out-dir lib",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run lint && npm run build && npm run test-mocha",
+    "test-mocha": "mocha --compilers js:babel/register",
+    "lint": "eslint ./",
+    "patch": "release patch --run",
+    "minor": "release minor --run",
+    "major": "release major --run"
   },
   "repository": {
     "type": "git",
@@ -18,6 +23,15 @@
   },
   "homepage": "https://github.com/mathieumg/tempura",
   "devDependencies": {
-    "babel": "^5.6.14"
+    "babel": "^5.6.14",
+    "babel-eslint": "^4.1.3",
+    "eslint": "^1.7.3",
+    "eslint-config-semistandard": "^5.0.0",
+    "eslint-config-standard": "^4.4.0",
+    "eslint-plugin-babel": "^2.1.1",
+    "eslint-plugin-standard": "^1.3.1",
+    "mocha": "^2.3.3",
+    "mt-changelog": "^0.6.2",
+    "release-script": "^0.5.4"
   }
 }
