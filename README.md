@@ -1,3 +1,5 @@
+# DEPRECATED: This package has been depracated in favor of [common-tags](https://github.com/declandewet/common-tags).
+
 # tempura
 
 [![npm version](https://badge.fury.io/js/tempura.svg)](https://badge.fury.io/js/tempura)
@@ -55,7 +57,7 @@ Utility to remove all whitespace in template literals.
 import {noWhitespace} from 'tempura';
 
 const myStringWithWhiteSpace = noWhitespace`
-expression that shouldn't have whitespace in it, 
+expression that shouldn't have whitespace in it,
 but has some for clarity in code
 `;
 
