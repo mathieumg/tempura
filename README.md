@@ -1,4 +1,4 @@
-# DEPRECATED: This package has been depracated in favor of [common-tags](https://github.com/declandewet/common-tags).
+# DEPRECATED: This package has been deprecated in favor of [common-tags](https://github.com/declandewet/common-tags).
 
 # tempura
 
